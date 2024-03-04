@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device.width,initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/a98f01cb39.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!----------------about---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg" >          
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello and welcome to my portfolio! I'm a dedicated UI/UX designer with a deep-rooted passion 
+                    for crafting immersive digital experiences that seamlessly blend form and function. With a meticulous 
+                    attention to detail and a commitment to user-centric design principles, I specialize in creating
+                    intuitive interfaces that leave a lasting impression. Whether it's wireframing, prototyping, or
+                    pixel-perfect design, I thrive on translating complex ideas into elegant solutions that resonate
+                    with users. Let's collaborate to elevate your digital presence and create meaningful connections
+                    with your audience. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('educatiion')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Apps for Android and IOS</li>
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-2022</span><br>internship at Sunmark Solutions Company</li>
+                            <li><span>2021</span><br>E-commerce Website Development</li>
+                            <li><span>2023</span><br>E-learning Platform App (EduFlex)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>Halo Design Academy</li>
+                            <li><span>2018</span><br>Udemy Online Courses </li>
+                            <li><span>2023</span><br>Android App Building Course - Alison Online Courses</li>
+                        </ul>
+                    </div> 
+            </div>
+        </div>
+    </div>
+</div>
+</body>
